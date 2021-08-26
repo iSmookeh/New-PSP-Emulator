@@ -1,0 +1,24 @@
+.divulgation-styles {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    width: 370px;
+}
+
+.divulgation-styles p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.divulgation-styles a {
+    padding: 4px 10px 4px;
+    background-color: #5c5c5c;
+    text-decoration: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.divulgation-styles a:hover {
+    text-decoration: none !important;
+    background-color: #4d4d4d;
+}

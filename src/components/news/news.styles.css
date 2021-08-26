@@ -1,0 +1,17 @@
+.news-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.news-container img {
+    width: 24px;
+    height: 24px;
+}
+
+.perso-button2 {
+    display: flex;
+    gap: 8px;
+    color: #33b5e5;
+    cursor: pointer;
+}

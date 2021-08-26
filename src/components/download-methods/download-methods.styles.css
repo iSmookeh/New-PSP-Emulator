@@ -1,0 +1,88 @@
+.download-container{
+    display: flex;
+}
+.perso-botoes{
+    cursor: pointer;
+    width: 170px;
+    height: 56px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 8px;
+}
+.perso-botoes p{
+    color: white;
+}
+.downloads-btn{
+    width: 52px;
+    height: 42px;
+}
+.estrutura1{
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+}
+.estrutura2{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px  /*GAMBIARRA, ACHAR O ERRO DEPOIS! */;
+    align-items: center;
+}
+.perso-estrutura2{
+    display: flex;
+    gap: 16px;
+}
+.downloads-img{
+    width: 82px;
+    height: 72px;
+}
+.downloads-description{
+    width: 770px;
+    height: auto;
+}
+a {
+    color: #33b5e5;
+}
+
+.orange{
+    background-color: #ff8800;
+    cursor: pointer;
+    height: 56px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 8px;
+    color: white;
+    min-width: 170px;
+    width: auto;
+}
+
+.blue{
+    background-color: #007399;
+    cursor: pointer;
+    height: 56px;
+    gap: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 0 8px;
+    color: white;
+    min-width: 170px;
+    width: auto;
+}
+.perso-botoes-download{
+    display: flex;
+    flex-flow: column;
+    gap: 8px;
+    align-items: center;
+}
+.botao-download-esquerda2{
+    display: flex;
+    gap: 32px;
+    justify-content: flex-start;
+}
